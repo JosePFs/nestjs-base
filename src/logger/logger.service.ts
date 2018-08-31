@@ -12,11 +12,6 @@ export class LoggerService extends Logger {
         this.createLogger();
     }
 
-    public error(message: string, trace?: string, context?: string) {
-        this.logToFile(message, trace, context);
-        super.error(message, trace, context);
-    }
-
     private createLogger() {
         this.logger = createLogger({
             level: 'info',
@@ -44,9 +39,9 @@ export class LoggerService extends Logger {
 
     public logToFile(message: string, trace?: string, context?: string): void {
         const logEntry: LogEntry = { level: 'error', message: `Message: ${message}. Trace: ${trace}` };
-        this.logger.log(logEntry);
         // tslint:disable-next-line:no-console
-        console.log(logEntry);
+        console.log('entra', logEntry);
+        this.logger.log(logEntry);
     }
 
 }

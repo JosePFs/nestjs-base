@@ -10,6 +10,7 @@ export class TemplatesController {
 
     @Get()
     findAll(): Promise<Template[]> {
+        throw new HttpException('Forbidden', HttpStatus.FORBIDDEN);
         return this.templatesService.findAll();
     }
 

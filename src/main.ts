@@ -5,10 +5,11 @@ import 'reflect-metadata';
 
 import { AppModule } from './app.module';
 import { LoggerService } from './logger/logger.service';
-import { HttpExceptionFilter } from './filter/http-exception.filter';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule, {
+    logger: new LoggerService(),
+  });
 
   app.setGlobalPrefix('api');
 
@@ -22,10 +23,6 @@ async function bootstrap() {
       .build();
   const document = SwaggerModule.createDocument(app, options);
   SwaggerModule.setup('doc', app, document);
-
-  app.useLogger(app.get(LoggerService));
-
-  app.useGlobalFilters(new HttpExceptionFilter(app.get(LoggerService)));
 
   await app.listen(3000);
 }
