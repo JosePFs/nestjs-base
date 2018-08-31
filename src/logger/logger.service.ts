@@ -1,46 +1,64 @@
 import { Injectable, Logger } from '@nestjs/common';
 
-import { transports, createLogger, Logger as logger, format, LogEntry } from 'winston';
+import { transports, createLogger, Logger as WinstonLogger, format, LogEntry } from 'winston';
+import 'winston-daily-rotate-file';
+
+import { ConfigService } from './../config/config.service';
 
 @Injectable()
 export class LoggerService extends Logger {
 
-    private logger: logger;
+    private logger: WinstonLogger;
 
-    constructor() {
+    constructor(private configService: ConfigService) {
         super(null, true);
         this.createLogger();
     }
 
     private createLogger() {
+        const transportOptions = {
+            dirname: __dirname + '/../../data/logs',
+            zippedArchive: true,
+        };
+
         this.logger = createLogger({
             level: 'info',
             format: format.json(),
             transports: [
-                //
-                // - Write to all logs with level `info` and below to `combined.log`
-                // - Write all logs error (and below) to `error.log`.
-                //
-                new transports.File({ dirname: '../data/logs/', filename: 'error.log', level: 'error' }),
-                new transports.File({ dirname: '../data/logs/', filename: 'combined.log' }),
+                new ((transports as any).DailyRotateFile)({
+                    ...transportOptions,
+                    filename: 'error.log',
+                    level: 'error',
+                }),
+                new ((transports as any).DailyRotateFile)({
+                    ...transportOptions,
+                    filename: 'combined.log',
+                }),
             ],
         });
-
-        //
-        // If we're not in production then log to the `console` with the format:
-        // `${info.level}: ${info.message} JSON.stringify({ ...rest }) `
-        //
-        if (process.env.NODE_ENV !== 'production') {
-            this.logger.add(new transports.Console({
-                format: format.simple(),
-            }));
-        }
     }
 
-    public logToFile(message: string, trace?: string, context?: string): void {
-        const logEntry: LogEntry = { level: 'error', message: `Message: ${message}. Trace: ${trace}` };
-        // tslint:disable-next-line:no-console
-        console.log('entra', logEntry);
+    log(message: any, context?: string): void {
+        super.log(message, context);
+        this.logToFile(message, 'info');
+    }
+
+    error(message: any, trace?: string, context?: string): void {
+        super.error(message, trace, context);
+        this.logToFile(message, 'error');
+    }
+
+    warn(message: any, context?: string): void {
+        super.error(message, context);
+        this.logToFile(message, 'warn');
+    }
+
+    access(message: string): void {
+        this.logToFile(message, 'info');
+    }
+
+    logToFile(message: string, level: string): void {
+        const logEntry: LogEntry = { time: new Date().toISOString(), level,  message };
         this.logger.log(logEntry);
     }
 

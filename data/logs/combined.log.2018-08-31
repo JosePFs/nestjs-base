@@ -1,0 +1,153 @@
+{"time":"2018-08-31T07:27:34.951Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T07:27:34.954Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T07:27:34.955Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T07:27:34.956Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T07:27:38.787Z","level":"error","message":"Cannot GET /api/templates/dfdf"}
+{"time":"2018-08-31T07:28:11.616Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:22:08.262Z","level":"error","message":"Nest cannot find given element (it does not exist in current context)"}
+{"time":"2018-08-31T08:23:22.294Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:23:22.297Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:23:22.298Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:23:22.299Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:23:25.690Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:29:36.429Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:29:36.432Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:29:36.433Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:29:36.433Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:29:37.950Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:31:29.944Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:31:29.947Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:31:29.948Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:31:29.949Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:31:32.254Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:32:00.072Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:32:00.075Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:32:00.076Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:32:00.077Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:32:02.187Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:33:39.310Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:33:39.313Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:33:39.314Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:33:39.314Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:33:42.815Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:34:13.813Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:34:13.816Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:34:13.817Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:34:13.817Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:34:15.665Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:35:03.177Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:35:03.180Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:35:03.181Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:35:03.182Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:35:04.939Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:35:53.159Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:35:53.162Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:35:53.163Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:35:53.165Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:35:54.093Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:41:01.304Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:41:01.307Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:41:01.308Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:41:01.308Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:41:06.318Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:44:36.468Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:44:36.471Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:44:36.471Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:44:36.472Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:44:39.862Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:46:09.633Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:46:09.637Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:46:09.638Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:46:09.639Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:46:10.033Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:46:13.402Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:47:09.330Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:47:09.333Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:47:09.334Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:47:09.335Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:47:13.691Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:48:00.450Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:48:00.453Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:48:00.453Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:48:00.454Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:48:06.674Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:50:01.752Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:50:01.755Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:50:01.755Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:50:01.756Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T08:50:04.991Z","level":"info","message":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 GET /api/templates/"}
+{"time":"2018-08-31T08:50:04.991Z","level":"info","message":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 GET /api/templates/"}
+{"time":"2018-08-31T08:52:23.857Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T08:52:23.860Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T08:52:23.860Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T08:52:23.861Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T09:29:29.729Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T09:29:29.732Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T09:29:29.732Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T09:29:29.733Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T09:29:47.726Z","level":"info","message":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 GET /api/templates/"}
+{"time":"2018-08-31T09:29:47.727Z","level":"info","message":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 GET /api/templates/"}
+{"time":"2018-08-31T09:31:53.218Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T09:31:53.221Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T09:31:53.222Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T09:31:53.222Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T09:31:55.777Z","level":"info","message":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 GET /api/templates/"}
+{"time":"2018-08-31T09:32:28.000Z","level":"error","message":"Cannot GET /api/templates/w"}
+{"time":"2018-08-31T10:48:04.940Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T10:48:04.943Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T10:48:04.944Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T10:48:04.945Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T10:53:34.644Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T10:53:34.647Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T10:53:34.648Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T10:53:34.649Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T10:53:55.462Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T10:53:55.465Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T10:53:55.465Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T10:53:55.466Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T11:10:48.554Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T11:10:48.557Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T11:10:48.558Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T11:10:48.558Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T11:11:04.673Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T11:11:04.676Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T11:11:04.676Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T11:11:04.677Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T11:13:33.289Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T11:13:33.292Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T11:13:33.293Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T11:13:33.293Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T11:15:29.024Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T11:15:29.027Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T11:15:29.028Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T11:15:29.029Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T12:06:12.420Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T12:06:12.423Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T12:06:12.424Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T12:06:12.424Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T12:06:18.656Z","level":"error","message":"Cannot GET /api/templates/w"}
+{"time":"2018-08-31T12:06:40.971Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T12:06:40.974Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T12:06:40.974Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T12:06:40.975Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T12:06:43.788Z","level":"error","message":"Cannot GET /api/templates/w"}
+{"time":"2018-08-31T12:07:12.291Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T12:07:12.294Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T12:07:12.295Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T12:07:12.296Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T12:07:14.913Z","level":"error","message":"Cannot GET /api/templates/w"}
+{"time":"2018-08-31T12:07:15.604Z","level":"error","message":"Cannot GET /api/templates/w"}
+{"time":"2018-08-31T12:07:42.882Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T12:07:42.885Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T12:07:42.886Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T12:07:42.887Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T12:19:16.115Z","level":"error","message":"Cannot GET /api/doc"}
+{"time":"2018-08-31T12:19:23.754Z","level":"info","message":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 GET /api/templates"}
+{"time":"2018-08-31T12:52:13.981Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T12:52:13.984Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T12:52:13.984Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T12:52:13.985Z","level":"info","message":"Nest application successfully started"}
+{"time":"2018-08-31T13:47:08.370Z","level":"info","message":"TemplatesController {/api/templates}:"}
+{"time":"2018-08-31T13:47:08.373Z","level":"info","message":"Mapped {/, GET} route"}
+{"time":"2018-08-31T13:47:08.373Z","level":"info","message":"Mapped {/, POST} route"}
+{"time":"2018-08-31T13:47:08.374Z","level":"info","message":"Nest application successfully started"}

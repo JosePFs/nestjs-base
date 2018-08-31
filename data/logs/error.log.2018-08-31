@@ -1,0 +1,23 @@
+{"time":"2018-08-31T07:27:38.787Z","level":"error","message":"Cannot GET /api/templates/dfdf"}
+{"time":"2018-08-31T07:28:11.616Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:22:08.262Z","level":"error","message":"Nest cannot find given element (it does not exist in current context)"}
+{"time":"2018-08-31T08:23:25.690Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:29:37.950Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:31:32.254Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:32:02.187Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:33:42.815Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:34:15.665Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:35:04.939Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:35:54.093Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:41:06.318Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:44:39.862Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:46:10.033Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:46:13.402Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:47:13.691Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T08:48:06.674Z","level":"error","message":"Forbidden /api/templates/"}
+{"time":"2018-08-31T09:32:28.000Z","level":"error","message":"Cannot GET /api/templates/w"}
+{"time":"2018-08-31T12:06:18.656Z","level":"error","message":"Cannot GET /api/templates/w"}
+{"time":"2018-08-31T12:06:43.788Z","level":"error","message":"Cannot GET /api/templates/w"}
+{"time":"2018-08-31T12:07:14.913Z","level":"error","message":"Cannot GET /api/templates/w"}
+{"time":"2018-08-31T12:07:15.604Z","level":"error","message":"Cannot GET /api/templates/w"}
+{"time":"2018-08-31T12:19:16.115Z","level":"error","message":"Cannot GET /api/doc"}
