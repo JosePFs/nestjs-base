@@ -29,6 +29,11 @@ export class ConfigService {
       PORT: Joi.number().default(3000),
       TIMEZONE: Joi.string().required(),
       PREFIX: Joi.string().required(),
+      LOGS_FOLDER: Joi.string().required(),
+      DATABASE_HOST: Joi.string().required(),
+      DATABASE_NAME: Joi.string().required(),
+      DATABASE_LOGGING: Joi.boolean().required(),
+      DATABASE_SYNCHRONIZE: Joi.boolean().required(),
     });
 
     const { error, value: validatedEnvConfig } = Joi.validate(
@@ -43,7 +48,7 @@ export class ConfigService {
     return validatedEnvConfig;
   }
 
-  get(key: string): string {
+  get(key: string): any {
     return this.envConfig[key];
   }
 

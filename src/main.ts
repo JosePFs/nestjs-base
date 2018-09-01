@@ -1,4 +1,4 @@
-import { NestFactory } from '@nestjs/core';
+import { NestFactory, FastifyAdapter } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
 import 'reflect-metadata';
@@ -9,7 +9,7 @@ import { LoggerService } from './logger/logger.service';
 import { LoggingInterceptor } from './interceptor/logging.interceptor';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule, {
+  const app = await NestFactory.create(AppModule, new FastifyAdapter(), {
     logger: false,
   });
 
