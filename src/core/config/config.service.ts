@@ -16,7 +16,7 @@ export class ConfigService {
   private readonly envConfig: EnvConfig;
 
   constructor(filePath: string) {
-    const configPath = filePath || `${__dirname}/../../${this.defaultEnv}.env`;
+    const configPath = filePath || `${__dirname}/../../../${this.defaultEnv}.env`;
     const config = dotenv.parse(fs.readFileSync(configPath));
     this.envConfig = this.validateInput(config);
   }

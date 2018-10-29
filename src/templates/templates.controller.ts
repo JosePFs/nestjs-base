@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, ValidationPipe, HttpStatus, HttpException } from '@nestjs/common';
+import { Controller, Get, Post, Body, ValidationPipe } from '@nestjs/common';
 
 import { Template } from './../entity/Template';
 import { TemplatesService } from './templates.service';

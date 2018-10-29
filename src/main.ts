@@ -1,15 +1,14 @@
-import { NestFactory, FastifyAdapter } from '@nestjs/core';
+import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
 import 'reflect-metadata';
 
-import { ConfigService } from './config/config.service';
 import { AppModule } from './app.module';
-import { LoggerService } from './logger/logger.service';
-import { LoggingInterceptor } from './interceptor/logging.interceptor';
+import { ConfigService } from './core/config/config.service';
+import { LoggerService } from './core/logger/logger.service';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule, new FastifyAdapter(), {
+  const app = await NestFactory.create(AppModule, {
     logger: false,
   });
 
@@ -17,15 +16,13 @@ async function bootstrap() {
 
   app.useLogger(app.get(LoggerService));
 
-  app.useGlobalInterceptors(new LoggingInterceptor(app.get(LoggerService)));
-
   app.setGlobalPrefix(config.get('PREFIX'));
 
   app.enableCors();
 
   const options = new DocumentBuilder()
-      .setTitle('Contentcloud CAF')
-      .setDescription('Contentcloud CAF Backend API')
+      .setTitle('Nestjs base')
+      .setDescription('Nestjs base API')
       .setVersion('0.1')
       .setBasePath(`/${config.get('PREFIX')}`)
       .build();

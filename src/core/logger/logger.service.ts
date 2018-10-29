@@ -3,7 +3,7 @@ import { Injectable, Logger } from '@nestjs/common';
 import { transports, createLogger, Logger as WinstonLogger, format, LogEntry } from 'winston';
 import 'winston-daily-rotate-file';
 
-import { ConfigService } from './../config/config.service';
+import { ConfigService } from '../config/config.service';
 import { DateService } from '../utils/date.service';
 
 @Injectable()
@@ -21,7 +21,7 @@ export class LoggerService extends Logger {
 
     private createLogger() {
         const transportOptions = {
-            dirname: __dirname +  `/../../${this.configService.get('LOGS_FOLDER')}`,
+            dirname: __dirname +  `/../../../${this.configService.get('LOGS_FOLDER')}`,
             zippedArchive: true,
         };
 

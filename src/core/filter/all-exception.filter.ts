@@ -22,7 +22,7 @@ export class AllExceptionsFilter extends BaseExceptionFilter {
     const exceptionResponse = {
         statusCode: status,
         error: exception.message.error || exception.getResponse(),
-        message: exception.message.message || exception.message,
+        message: exception.message.message || exception.message.error,
         timestamp: this.dateService.getNowString(),
         path: request.url,
     };
